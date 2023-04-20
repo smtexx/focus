@@ -1,0 +1,32 @@
+.headerMobile,
+.headerDesctop {
+  display: flex;
+  align-items: center;
+}
+
+.headerMobile svg {
+  width: 2rem;
+  margin-right: 1rem;
+  fill: var(--bs-primary);
+}
+
+.headerDesctop {
+  padding-top: 3px;
+}
+
+.headerDesctop svg {
+  width: 3rem;
+  margin-right: 1rem;
+  fill: var(--bs-white);
+}
+
+@media (hover: hover) {
+  .link:hover * {
+    color: var(--bs-primary) !important;
+  }
+}
+
+/* .created {
+  display: flex;
+  gap: 0.75rem;
+} */
