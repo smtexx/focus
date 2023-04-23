@@ -1,7 +1,10 @@
+import PageTitle from '../components/PageTitle/PageTitle';
+
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
   return (
     <>
+      <PageTitle title="Фотостудия Focus - профессиональная съемка портретов, свадеб и мероприятий | Забронируйте сессию уже сегодня!" />
       {/* Header */}
       <section className="container-fluid hero-header bg-light pt-3 pb-5 mb-5">
         <div className="container py-5">

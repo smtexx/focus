@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 
+import PageTitle from '../components/PageTitle/PageTitle';
+
 export default function Contact() {
   return (
     <>
-      {/* Header */}
+      <PageTitle title="Контакты | Фотостудия Focus" />;{/* Header */}
       <div className="container-fluid hero-header bg-light py-5 mb-5">
         <div className="container py-5">
           <div className="row g-5 align-items-center">
@@ -38,7 +40,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-
       {/* Contact */}
       <section className="container-xxl py-5">
         <div className="container">
@@ -125,7 +126,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-
       {/* Google Map */}
       <section
         className="container-xxl py-5 px-0 wow fadeInUp"
