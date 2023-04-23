@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   output: 'export',
   distDir: 'docs',
-  assetPrefix: '.',
+  assetPrefix: 'https://smtexx.github.io/focus',
   images: {
     unoptimized: true,
   },
