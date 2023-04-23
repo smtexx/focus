@@ -105,7 +105,7 @@ export default function Layout({ children }) {
       </nav>
 
       {/* Pages */}
-      {children}
+      <main>{children}</main>
 
       {/* Footer */}
       <div

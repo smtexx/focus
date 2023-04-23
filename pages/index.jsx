@@ -11,37 +11,37 @@ export default function Home() {
   return (
     <>
       {/* Header */}
-      <div className="container-fluid hero-header bg-light pt-3 pb-5 mb-5">
+      <section className="container-fluid hero-header bg-light pt-3 pb-5 mb-5">
         <div className="container py-5">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6">
               <p className="text-primary text-uppercase mb-2 animated slideInDown">
-                Welcome To Photozone
+                Добро пожаловать в Focus!
               </p>
               <h1 className="display-4 mb-3 animated slideInDown">
-                Wedding And Portrait Studio Based in New York
+                Фотостудия Focus, лучшие моменты всегда в фокусе!
               </h1>
               <p className="animated slideInDown">
-                Tempor erat elitr rebum at clita. Diam dolor diam
-                ipsum sit. Aliqu diam amet diam et eos. Clita erat
-                ipsum et lorem et sit, sed stet lorem sit clita duo
-                justo magna dolore erat amet
+                Сохраним самые важные моменты вашей жизни в
+                незабываемых фотографиях и видео. Профессионально
+                превращаем Ваши идеи в качественный цифровой контент с
+                помощью новейших технологий.
               </p>
               <div className="d-flex align-items-center pt-4 animated slideInDown">
                 <a href="" className="btn btn-primary py-3 px-4 me-5">
-                  Explore More
+                  Подробнее
                 </a>
                 <button
                   type="button"
                   className="btn-play"
                   data-bs-toggle="modal"
-                  data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
+                  data-src="https://www.youtube.com/embed/ijb0amENO0E"
                   data-bs-target="#videoModal"
                 >
                   <span></span>
                 </button>
                 <h5 className="ms-4 mb-0 d-none d-sm-block">
-                  Play Video
+                  Смотреть видео
                 </h5>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Video Modal Start */}
       <div
@@ -86,10 +86,13 @@ export default function Home() {
         aria-hidden="true"
       >
         <div className="modal-dialog">
-          <div className="modal-content rounded-0">
-            <div className="modal-header">
-              <h3 className="modal-title" id="exampleModalLabel">
-                Youtube Video
+          <div className="modal-content rounded-1">
+            <div className="modal-header bg-primary ">
+              <h3
+                className="modal-title text-white"
+                id="exampleModalLabel"
+              >
+                Лучшие фото
               </h3>
               <button
                 type="button"
@@ -115,7 +118,7 @@ export default function Home() {
       </div>
 
       {/* About */}
-      <div className="container-xxl py-5">
+      <article className="container-xxl py-5">
         <div className="container">
           <div className="row g-5">
             <div
@@ -145,52 +148,54 @@ export default function Home() {
             >
               <div className="h-100">
                 <p className="text-primary text-uppercase mb-2">
-                  About Us
+                  О нас
                 </p>
                 <h1 className="display-6 mb-4">
-                  We Are Creative And Professional Photographer
+                  Доверьтесь профессионалам
                 </h1>
                 <p>
-                  Tempor erat elitr rebum at clita. Diam dolor diam
-                  ipsum sit. Aliqu diam amet diam et eos. Clita erat
-                  ipsum et lorem et sit, sed stet lorem sit clita duo
-                  justo magna dolore erat amet
+                  Требуется фотограф, который всегда делает свою
+                  работу с профессионализмом и страстью? Наш фотограф
+                  имеет многолетний опыт фотографии и привносит
+                  индивидуальный подход в каждый проект. Он умело
+                  использует свет, композицию и свой креатив, чтобы
+                  создавать фотографии высочайшего качества.
                 </p>
                 <p>
-                  Tempor erat elitr rebum at clita. Diam dolor diam
-                  ipsum sit. Aliqu diam amet diam et eos. Clita erat
-                  ipsum et lorem et sit, sed stet lorem sit clita duo
-                  justo magna dolore erat amet
+                  Мы внимательны к вашим пожеланиям и умеем превращать
+                  их в живые и красочные кадры. Если вы хотите, чтобы
+                  ваше фото было настоящим произведением искусства,
+                  свяжитесь с нами уже сегодня!
                 </p>
                 <div className="row g-2 mb-4">
                   <div className="col-sm-6">
                     <i className="fa fa-check text-primary me-3"></i>
-                    Quality Products
+                    Уникальные фотографии
                   </div>
                   <div className="col-sm-6">
                     <i className="fa fa-check text-primary me-3"></i>
-                    Custom Products
+                    Внимание к деталям
                   </div>
                   <div className="col-sm-6">
                     <i className="fa fa-check text-primary me-3"></i>
-                    Online Order
+                    Выезд на мереоприятия
                   </div>
                   <div className="col-sm-6">
                     <i className="fa fa-check text-primary me-3"></i>
-                    Home Delivery
+                    Профессиональная техника
                   </div>
                 </div>
                 <a className="btn btn-primary py-3 px-5" href="">
-                  Read More
+                  Подробнее
                 </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </article>
 
       {/* Facts */}
-      <div className="container-xxl py-5">
+      <article className="container-xxl py-5">
         <div className="container">
           <div
             className="text-center mx-auto wow fadeInUp"
@@ -198,10 +203,10 @@ export default function Home() {
             style={{ maxWidth: '500px' }}
           >
             <p className="text-primary text-uppercase mb-2">
-              Why Choose Us!
+              Почему выбирают нас?
             </p>
             <h1 className="display-6 mb-5">
-              The Leading Photo Studio In The Country
+              Огромный опыт фотографии
             </h1>
           </div>
           <div className="row g-3">
@@ -214,12 +219,12 @@ export default function Home() {
                   className="display-2 text-primary mb-3"
                   data-toggle="counter-up"
                 >
-                  35
+                  532
                 </h1>
-                <h4 className="mb-3">Award Winning</h4>
+                <h4 className="mb-3">Довольных клиента</h4>
                 <span>
-                  Aliqu diam amet diam et eos. Clita erat ipsum et
-                  lorem et sit, sed stet lorem sit clita duo justo
+                  Сотни наших клиентов остались довольны качественными
+                  фотографиями.
                 </span>
               </div>
             </div>
@@ -232,12 +237,12 @@ export default function Home() {
                   className="display-2 text-primary mb-3"
                   data-toggle="counter-up"
                 >
-                  45
+                  5
                 </h1>
-                <h4 className="mb-3">Years Experience</h4>
+                <h4 className="mb-3">Лет на рынке</h4>
                 <span>
-                  Aliqu diam amet diam et eos. Clita erat ipsum et
-                  lorem et sit, sed stet lorem sit clita duo justo
+                  Более 5 лет мы профессионально занимаемся
+                  фотографией, сохраняя лучшие моменты вашей жизни.
                 </span>
               </div>
             </div>
@@ -250,32 +255,30 @@ export default function Home() {
                   className="display-2 text-primary mb-3"
                   data-toggle="counter-up"
                 >
-                  12345
+                  26 000
                 </h1>
-                <h4 className="mb-3">Happy Clients</h4>
+                <h4 className="mb-3">Обработанных фотографий</h4>
                 <span>
-                  Aliqu diam amet diam et eos. Clita erat ipsum et
-                  lorem et sit, sed stet lorem sit clita duo justo
+                  Мы сняли и обработали более 26 000 великолепных
+                  фотографий для наших клиентов.
                 </span>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </article>
 
       {/* Service */}
-      <div className="container-xxl bg-light py-5 my-5">
+      <article className="container-xxl bg-light py-5 my-5">
         <div className="container py-5">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
             data-wow-delay="0.1s"
             style={{ maxWidth: '500px' }}
           >
-            <p className="text-primary text-uppercase mb-2">
-              Our Services
-            </p>
+            <p className="text-primary text-uppercase mb-2">Услуги</p>
             <h1 className="display-6 mb-4">
-              We Provide Best Professional Services
+              Качественные фотоуслуги для вас
             </h1>
           </div>
           <div className="row g-3">
@@ -300,7 +303,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h4>Weddings</h4>
+                  <h4>Свадьбы</h4>
                 </div>
               </div>
             </div>
@@ -325,7 +328,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h4>Portraits</h4>
+                  <h4>Портреты</h4>
                 </div>
               </div>
             </div>
@@ -350,7 +353,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h4>Fashion</h4>
+                  <h4>Праздники</h4>
                 </div>
               </div>
             </div>
@@ -375,13 +378,13 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h4>Editorial</h4>
+                  <h4>Тематические</h4>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </article>
 
       {/* Project */}
       <div className="container-xxl py-5">
@@ -392,10 +395,10 @@ export default function Home() {
             style={{ maxWidth: '500px' }}
           >
             <p className="text-primary text-uppercase mb-2">
-              Our Works
+              Наши работы
             </p>
             <h1 className="display-6 mb-0">
-              Discover Our Unique And Creative Photoshoot
+              Откройте себя в уникальной фотосессии
             </h1>
           </div>
           <div className="row g-3">
@@ -416,7 +419,7 @@ export default function Home() {
                       href="img/project-5.jpg"
                       data-lightbox="project"
                     >
-                      Memory
+                      Момент
                     </a>
                   </div>
                 </div>
@@ -432,7 +435,7 @@ export default function Home() {
                       href="img/project-1.jpg"
                       data-lightbox="project"
                     >
-                      Wedding
+                      Вечеринка
                     </a>
                   </div>
                 </div>
@@ -455,7 +458,7 @@ export default function Home() {
                       href="img/project-2.jpg"
                       data-lightbox="project"
                     >
-                      Portrait
+                      Праздник
                     </a>
                   </div>
                 </div>
@@ -471,7 +474,7 @@ export default function Home() {
                       href="img/project-6.jpg"
                       data-lightbox="project"
                     >
-                      Travel
+                      Отдых
                     </a>
                   </div>
                 </div>
@@ -494,7 +497,7 @@ export default function Home() {
                       href="img/project-7.jpg"
                       data-lightbox="project"
                     >
-                      Wedding
+                      Свадьба
                     </a>
                   </div>
                 </div>
@@ -510,7 +513,7 @@ export default function Home() {
                       href="img/project-3.jpg"
                       data-lightbox="project"
                     >
-                      Memory
+                      Семья
                     </a>
                   </div>
                 </div>
@@ -533,7 +536,7 @@ export default function Home() {
                       href="img/project-4.jpg"
                       data-lightbox="project"
                     >
-                      Fashion
+                      Креатив
                     </a>
                   </div>
                 </div>
@@ -549,7 +552,7 @@ export default function Home() {
                       href="img/project-8.jpg"
                       data-lightbox="project"
                     >
-                      Portrait
+                      Портрет
                     </a>
                   </div>
                 </div>
@@ -566,9 +569,9 @@ export default function Home() {
           data-wow-delay="0.1s"
           style={{ maxWidth: '500px' }}
         >
-          <p className="text-primary text-uppercase mb-2">Our Team</p>
+          <p className="text-primary text-uppercase mb-2">Команда</p>
           <h1 className="display-6 mb-0">
-            Creative Photograher And Videographer
+            Креативный фотограф и крутой редактор
           </h1>
         </div>
         <div className="row g-0">
@@ -586,12 +589,13 @@ export default function Home() {
               <div className="col-sm-6">
                 <div className="h-100 p-5 d-flex flex-column justify-content-between">
                   <div className="mb-3">
-                    <h4>Lucifer Jhones</h4>
-                    <span>Photographer</span>
+                    <h4>Алена Лазарева</h4>
+                    <span>Фотограф</span>
                   </div>
                   <p>
-                    Aliqu diam amet diam et eos. Clita erat ipsum et
-                    lorem et sit, sed stet lorem sit clita duo
+                    Креатив - неотъемлемая часть моей работы, всегда
+                    ищу новые идеи, чтобы сделать фотосессию
+                    неповторимой
                   </p>
                   <div className="d-flex">
                     <a
@@ -631,12 +635,12 @@ export default function Home() {
               <div className="col-sm-6">
                 <div className="h-100 p-5 d-flex flex-column justify-content-between">
                   <div className="mb-3">
-                    <h4>Jesse Joslin</h4>
-                    <span>Videographer</span>
+                    <h4>Денис Блюм</h4>
+                    <span>Редактор</span>
                   </div>
                   <p>
-                    Aliqu diam amet diam et eos. Clita erat ipsum et
-                    lorem et sit, sed stet lorem sit clita duo
+                    Развиваю свои навыки, чтобы достичь идеального
+                    результата, сохраняя естественность изображений
                   </p>
                   <div className="d-flex">
                     <a
@@ -676,12 +680,12 @@ export default function Home() {
               <div className="col-sm-6">
                 <div className="h-100 p-5 d-flex flex-column justify-content-between">
                   <div className="mb-3">
-                    <h4>Richard Archer</h4>
-                    <span>Retoucher</span>
+                    <h4>Роман Зайцев</h4>
+                    <span>Видеограф</span>
                   </div>
                   <p>
-                    Aliqu diam amet diam et eos. Clita erat ipsum et
-                    lorem et sit, sed stet lorem sit clita duo
+                    Создаю качественный контент, мой креативный подход
+                    всегда подчеркивает уникальность проекта
                   </p>
                   <div className="d-flex">
                     <a
@@ -721,12 +725,12 @@ export default function Home() {
               <div className="col-sm-6">
                 <div className="h-100 p-5 d-flex flex-column justify-content-between">
                   <div className="mb-3">
-                    <h4>April Ryan</h4>
-                    <span>Editor</span>
+                    <h4>Полина Андреева</h4>
+                    <span>Ретушер</span>
                   </div>
                   <p>
-                    Aliqu diam amet diam et eos. Clita erat ipsum et
-                    lorem et sit, sed stet lorem sit clita duo
+                    Конечный результат фотосессии во многом зависит от
+                    моего умения творчески и точно обработать снимки
                   </p>
                   <div className="d-flex">
                     <a
@@ -764,10 +768,10 @@ export default function Home() {
             style={{ maxWidth: '500px' }}
           >
             <p className="text-primary text-uppercase mb-2">
-              Client&apos;s Review
+              Отзывы клиентов
             </p>
             <h1 className="display-6 mb-0">
-              More Than 20000+ Customers Trusted Us
+              Нам доверяют 500+ клиентов!
             </h1>
           </div>
           <div
@@ -782,14 +786,13 @@ export default function Home() {
                   alt=""
                 />
                 <div className="ms-4">
-                  <h5 className="mb-1">Client Name</h5>
-                  <span>Profession</span>
+                  <h5 className="mb-1">Максим Демидов</h5>
+                  <span>Фотосессия</span>
                 </div>
               </div>
               <p className="mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam
-                ipsum sit diam amet diam et eos. Clita erat ipsum et
-                lorem et sit.
+                Фотосессия юбилея прошла отлично! Фотограф поработал
+                отлично, снимки великолепны! Доволен результатом!
               </p>
             </div>
             <div className="testimonial-item bg-white p-4">
@@ -800,14 +803,13 @@ export default function Home() {
                   alt=""
                 />
                 <div className="ms-4">
-                  <h5 className="mb-1">Client Name</h5>
-                  <span>Profession</span>
+                  <h5 className="mb-1">Анна Волевич</h5>
+                  <span>Детский праздник</span>
                 </div>
               </div>
               <p className="mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam
-                ipsum sit diam amet diam et eos. Clita erat ipsum et
-                lorem et sit.
+                Фотограф профессионально запечатлел лучшие моменты дня
+                рождения дочери. Рекомендую!
               </p>
             </div>
             <div className="testimonial-item bg-white p-4">
@@ -818,14 +820,13 @@ export default function Home() {
                   alt=""
                 />
                 <div className="ms-4">
-                  <h5 className="mb-1">Client Name</h5>
-                  <span>Profession</span>
+                  <h5 className="mb-1">Артур Лебедев</h5>
+                  <span>Корпоратив</span>
                 </div>
               </div>
               <p className="mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam
-                ipsum sit diam amet diam et eos. Clita erat ipsum et
-                lorem et sit.
+                Приятно удивлены качеством фото новогоднего
+                корпоратива! Фотограф настоящий профессионал.
               </p>
             </div>
             <div className="testimonial-item bg-white p-4">
@@ -836,14 +837,13 @@ export default function Home() {
                   alt=""
                 />
                 <div className="ms-4">
-                  <h5 className="mb-1">Client Name</h5>
-                  <span>Profession</span>
+                  <h5 className="mb-1">Татьяна Яковлева</h5>
+                  <span>Свадьба</span>
                 </div>
               </div>
               <p className="mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam
-                ipsum sit diam amet diam et eos. Clita erat ipsum et
-                lorem et sit.
+                Мы в восторге от нашей фотосессии! Спасибо за
+                профессиональную организацию съемки!
               </p>
             </div>
           </div>
