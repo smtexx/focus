@@ -1,13 +1,5 @@
-import { useEffect } from 'react';
-
 /* eslint-disable @next/next/no-img-element */
 export default function Home() {
-  useEffect(() => {
-    setTimeout(() => {
-      document.getElementById('spinner').classList.remove('show');
-    }, 500);
-  }, []);
-
   return (
     <>
       {/* Header */}

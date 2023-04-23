@@ -1,10 +1,17 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
+import { useEffect } from 'react';
 import MetaTags from '../MetaTags/MetaTags';
 import Logo from '../Logo/Logo';
 import s from './Layout.module.css';
 
 /* eslint-disable @next/next/no-img-element */
 export default function Layout({ children }) {
+  useEffect(() => {
+    setTimeout(() => {
+      document.getElementById('spinner').classList.remove('show');
+    }, 500);
+  }, [children]);
+
   return (
     <>
       <MetaTags />

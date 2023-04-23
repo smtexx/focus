@@ -1,13 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { useEffect } from 'react';
 
 export default function Contact() {
-  useEffect(() => {
-    setTimeout(() => {
-      document.getElementById('spinner').classList.remove('show');
-    }, 500);
-  }, []);
-
   return (
     <>
       {/* Header */}
