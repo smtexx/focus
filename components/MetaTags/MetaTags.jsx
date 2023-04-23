@@ -47,13 +47,13 @@ export default function MetaTags() {
       />
       <meta
         property="og:image"
-        content="https://smtexx.github.io/travel-agency/share/og-image-wide.jpg"
+        content="https://smtexx.github.io/focus/share/og-image-wide.jpg"
       />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <meta
         property="og:image"
-        content="https://smtexx.github.io/travel-agency/share/android-chrome-512x512.png"
+        content="https://smtexx.github.io/focus/share/android-chrome-512x512.png"
       />
       <meta property="og:image:width" content="512" />
       <meta property="og:image:height" content="512" />
