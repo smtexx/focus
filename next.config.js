@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
   output: 'export',
   distDir: 'docs',
+  assetPrefix: '.',
   images: {
     unoptimized: true,
   },
