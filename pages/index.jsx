@@ -5,7 +5,7 @@ export default function Home() {
   useEffect(() => {
     setTimeout(() => {
       document.getElementById('spinner').classList.remove('show');
-    }, 1000);
+    }, 500);
   }, []);
 
   return (
@@ -51,24 +51,24 @@ export default function Home() {
                   <img
                     className="img-fluid bg-white p-3 w-100 mb-3"
                     src="img/hero-1.jpg"
-                    alt=""
+                    alt="Молодожены"
                   />
                   <img
                     className="img-fluid bg-white p-3 w-50"
                     src="img/hero-3.jpg"
-                    alt=""
+                    alt="Девочка с тортом"
                   />
                 </div>
                 <div className="col-6">
                   <img
                     className="img-fluid bg-white p-3 w-50 mb-3"
                     src="img/hero-4.jpg"
-                    alt=""
+                    alt="Портрет женщины"
                   />
                   <img
                     className="img-fluid bg-white p-3 w-100"
                     src="img/hero-2.jpg"
-                    alt=""
+                    alt="Семейная пара с ребенком"
                   />
                 </div>
               </div>
@@ -130,14 +130,14 @@ export default function Home() {
                   <img
                     className="img-fluid bg-light p-3"
                     src="img/about-1.jpg"
-                    alt=""
+                    alt="Девушка в свадебном платье"
                   />
                 </div>
                 <div className="col-6 align-self-end">
                   <img
                     className="img-fluid bg-light p-3"
                     src="img/about-2.jpg"
-                    alt=""
+                    alt="Девушка с фотоаппаратом"
                   />
                 </div>
               </div>
@@ -291,7 +291,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/service-1.jpg"
-                    alt=""
+                    alt="Молодожены на свадьбе"
                   />
                   <div className="service-overlay">
                     <a
@@ -316,7 +316,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/service-2.jpg"
-                    alt=""
+                    alt="Портрет женщины"
                   />
                   <div className="service-overlay">
                     <a
@@ -341,7 +341,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/service-3.jpg"
-                    alt=""
+                    alt="Детский праздник"
                   />
                   <div className="service-overlay">
                     <a
@@ -366,7 +366,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/service-4.jpg"
-                    alt=""
+                    alt="Девушка на природе"
                   />
                   <div className="service-overlay">
                     <a
@@ -412,7 +412,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-5.jpg"
-                      alt=""
+                      alt="Влюбленная пара"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -428,7 +428,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-1.jpg"
-                      alt=""
+                      alt="Вечеринка"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -451,7 +451,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-2.jpg"
-                      alt=""
+                      alt="Детский праздник"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -467,7 +467,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-6.jpg"
-                      alt=""
+                      alt="Девушка на пляже"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -490,7 +490,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-7.jpg"
-                      alt=""
+                      alt="Свадьба"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -506,7 +506,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-3.jpg"
-                      alt=""
+                      alt="Семейное фото"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -529,7 +529,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-4.jpg"
-                      alt=""
+                      alt="Девушка на природе"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -545,7 +545,7 @@ export default function Home() {
                     <img
                       className="img-fluid"
                       src="img/project-8.jpg"
-                      alt=""
+                      alt="Портрет мужчины"
                     />
                     <a
                       className="project-title h5 mb-0"
@@ -582,7 +582,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/team-1.jpg"
-                    alt=""
+                    alt="Алена Лазарева"
                   />
                 </div>
               </div>
@@ -628,7 +628,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/team-2.jpg"
-                    alt=""
+                    alt="Денис Блюм"
                   />
                 </div>
               </div>
@@ -673,7 +673,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/team-3.jpg"
-                    alt=""
+                    alt="Роман Зайцев"
                   />
                 </div>
               </div>
@@ -718,7 +718,7 @@ export default function Home() {
                   <img
                     className="img-fluid"
                     src="img/team-4.jpg"
-                    alt=""
+                    alt="Полина Андреева"
                   />
                 </div>
               </div>
@@ -783,7 +783,7 @@ export default function Home() {
                 <img
                   className="flex-shrink-0 rounded-circle border p-1"
                   src="img/testimonial-1.jpg"
-                  alt=""
+                  alt="Максим Демидов"
                 />
                 <div className="ms-4">
                   <h5 className="mb-1">Максим Демидов</h5>
@@ -800,7 +800,7 @@ export default function Home() {
                 <img
                   className="flex-shrink-0 rounded-circle border p-1"
                   src="img/testimonial-2.jpg"
-                  alt=""
+                  alt="Анна Волевич"
                 />
                 <div className="ms-4">
                   <h5 className="mb-1">Анна Волевич</h5>
@@ -817,7 +817,7 @@ export default function Home() {
                 <img
                   className="flex-shrink-0 rounded-circle border p-1"
                   src="img/testimonial-3.jpg"
-                  alt=""
+                  alt="Артур Лебедев"
                 />
                 <div className="ms-4">
                   <h5 className="mb-1">Артур Лебедев</h5>
@@ -834,7 +834,7 @@ export default function Home() {
                 <img
                   className="flex-shrink-0 rounded-circle border p-1"
                   src="img/testimonial-4.jpg"
-                  alt=""
+                  alt="Татьяна Яковлева"
                 />
                 <div className="ms-4">
                   <h5 className="mb-1">Татьяна Яковлева</h5>
