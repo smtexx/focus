@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages */
 import MetaTags from '../MetaTags/MetaTags';
 import Logo from '../Logo/Logo';
 import s from './Layout.module.css';
@@ -45,21 +46,18 @@ export default function Layout({ children }) {
           id="navbarCollapse"
         >
           <div className="navbar-nav ms-auto py-0">
-            <a href="index.html" className="nav-item nav-link active">
+            <a href="#" className="nav-item nav-link active">
               На главную
             </a>
-            <a href="index.html#about" className="nav-item nav-link">
+            <a href="/#about" className="nav-item nav-link">
               О нас
             </a>
-            <a
-              href="index.html#advantages"
-              className="nav-item nav-link"
-            >
+            <a href="/#facts" className="nav-item nav-link">
               Преимущества
             </a>
           </div>
           <a
-            href="index.html"
+            href="#"
             className="navbar-brand bg-primary py-2 px-4 mx-3 d-none d-lg-block"
           >
             <h1 className={`text-white ${s.headerDesctop}`}>
@@ -68,36 +66,30 @@ export default function Layout({ children }) {
             </h1>
           </a>
           <div className="navbar-nav me-auto py-0">
-            <a
-              href="index.html#service"
-              className="nav-item nav-link"
-            >
+            <a href="/#service" className="nav-item nav-link">
               Услуги
             </a>
             <div className="nav-item dropdown">
               <a
-                href="#"
+                href="/#service"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 Информация
               </a>
               <div className="dropdown-menu rounded-0 shadow-sm border-0 m-0">
-                <a href="index.html#works" className="dropdown-item">
+                <a href="/#projects" className="dropdown-item">
                   Наши работы
                 </a>
-                <a href="index.html#team" className="dropdown-item">
+                <a href="/#team" className="dropdown-item">
                   Команда
                 </a>
-                <a
-                  href="index.html#testimonial"
-                  className="dropdown-item"
-                >
+                <a href="/#testimonial" className="dropdown-item">
                   Отзывы
                 </a>
               </div>
             </div>
-            <a href="contact.html" className="nav-item nav-link">
+            <a href="/contact" className="nav-item nav-link">
               Контакты
             </a>
           </div>
@@ -176,37 +168,37 @@ export default function Layout({ children }) {
             <div className="row g-5">
               <div className="col-sm-6">
                 <h4 className="text-light mb-4">Навигация</h4>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="/#about">
                   О нас
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="/#facts">
                   Преимущества
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="/#service">
                   Услуги
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="/#projects">
                   Наши работы
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="/#testimonial">
                   Отзывы
                 </a>
               </div>
               <div className="col-sm-6">
                 <h4 className="text-light mb-4">Интересное</h4>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="#">
                   Конкурсы
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="#">
                   Лучшие фото
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="#">
                   Крутые идеи
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="#">
                   Стили фотографии
                 </a>
-                <a className="btn btn-link" href="">
+                <a className="btn btn-link" href="#">
                   35AWARDS
                 </a>
               </div>
@@ -216,7 +208,7 @@ export default function Layout({ children }) {
                   <div className="input-group">
                     <input
                       type="text"
-                      className="form-control border-0 bg-secondary"
+                      className="form-control border-0 bg-secondary text-white"
                       style={{ padding: '20px 30px' }}
                       placeholder="Ваш Email адрес"
                     />

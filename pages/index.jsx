@@ -118,7 +118,7 @@ export default function Home() {
       </div>
 
       {/* About */}
-      <article className="container-xxl py-5">
+      <section className="container-xxl py-5" id="about">
         <div className="container">
           <div className="row g-5">
             <div
@@ -192,10 +192,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </article>
+      </section>
 
       {/* Facts */}
-      <article className="container-xxl py-5">
+      <section className="container-xxl py-5" id="facts">
         <div className="container">
           <div
             className="text-center mx-auto wow fadeInUp"
@@ -266,10 +266,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </article>
+      </section>
 
       {/* Service */}
-      <article className="container-xxl bg-light py-5 my-5">
+      <section
+        className="container-xxl bg-light py-5 my-5"
+        id="service"
+      >
         <div className="container py-5">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -378,16 +381,16 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-center p-4">
-                  <h4>Тематические</h4>
+                  <h4>Креативы</h4>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </article>
+      </section>
 
       {/* Project */}
-      <div className="container-xxl py-5">
+      <section className="container-xxl py-5" id="projects">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -560,10 +563,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Team */}
-      <div className="container-xxl px-0 py-5">
+      <section className="container-xxl px-0 py-5" id="team">
         <div
           className="text-center mx-auto mb-5 wow fadeInUp"
           data-wow-delay="0.1s"
@@ -757,10 +760,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
       {/* Testimonial */}
-      <div className="container-xxl py-5">
+      <section className="container-xxl py-5" id="testimonial">
         <div className="container">
           <div
             className="text-center mx-auto mb-5 wow fadeInUp"
@@ -848,7 +851,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }
