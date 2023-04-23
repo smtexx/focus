@@ -46,7 +46,7 @@ export default function Layout({ children }) {
           id="navbarCollapse"
         >
           <div className="navbar-nav ms-auto py-0">
-            <a href="#" className="nav-item nav-link active">
+            <a href="/" className="nav-item nav-link active">
               На главную
             </a>
             <a href="/#about" className="nav-item nav-link">
