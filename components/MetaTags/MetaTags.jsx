@@ -35,7 +35,7 @@ export default function MetaTags() {
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content="https://smtexx.github.io/photo-studio"
+        content="https://smtexx.github.io/focus"
       />
       <meta
         property="og:title"
@@ -47,7 +47,7 @@ export default function MetaTags() {
       />
       <meta
         property="og:image"
-        content="https://smtexx.github.io/focus/share/og-image-wide.jpg"
+        content="https://smtexx.github.io/focus/share/ogg-image-wide.jpg"
       />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
