@@ -250,7 +250,7 @@ export default function Home() {
                   className="display-2 text-primary mb-3"
                   data-toggle="counter-up"
                 >
-                  26 000
+                  26000
                 </h1>
                 <h4 className="mb-3">Обработанных фотографий</h4>
                 <span>
