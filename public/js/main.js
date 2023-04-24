@@ -87,3 +87,13 @@ function setCurrentYear(id) {
 }
 
 setCurrentYear('current-year');
+
+// Hide loader on load event
+function hideLoader() {
+  const spinner = document.getElementById('spinner');
+  if(spinner) {
+    spinner.classList.remove('show')
+  }
+}
+
+window.onload = hideLoader;

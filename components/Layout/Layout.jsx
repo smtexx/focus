@@ -7,9 +7,16 @@ import s from './Layout.module.css';
 /* eslint-disable @next/next/no-img-element */
 export default function Layout({ children }) {
   useEffect(() => {
-    setTimeout(() => {
-      document.getElementById('spinner').classList.remove('show');
-    }, 500);
+    function hideLoader() {
+      const spinner = document.getElementById('spinner');
+      if(spinner) {
+        spinner.classList.remove('show')
+      }
+    }
+
+    setTimeout(() => {      
+      hideLoader();
+    }, 3000);
   }, [children]);
 
   return (
