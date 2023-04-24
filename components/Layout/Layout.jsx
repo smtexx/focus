@@ -53,18 +53,18 @@ export default function Layout({ children }) {
           id="navbarCollapse"
         >
           <div className="navbar-nav ms-auto py-0">
-            <a href="/" className="nav-item nav-link active">
+            <a href="index.html" className="nav-item nav-link active">
               На главную
             </a>
-            <a href="/#about" className="nav-item nav-link">
+            <a href="index.html#about" className="nav-item nav-link">
               О нас
             </a>
-            <a href="/#facts" className="nav-item nav-link">
+            <a href="index.html#facts" className="nav-item nav-link">
               Преимущества
             </a>
           </div>
           <a
-            href="#"
+            href="index.html"
             className="navbar-brand bg-primary py-2 px-4 mx-3 d-none d-lg-block"
           >
             <h1 className={`text-white ${s.headerDesctop}`}>
@@ -73,30 +73,30 @@ export default function Layout({ children }) {
             </h1>
           </a>
           <div className="navbar-nav me-auto py-0">
-            <a href="/#service" className="nav-item nav-link">
+            <a href="index.html#service" className="nav-item nav-link">
               Услуги
             </a>
             <div className="nav-item dropdown">
               <a
-                href="/#service"
+                href="index.html#service"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 Информация
               </a>
               <div className="dropdown-menu rounded-0 shadow-sm border-0 m-0">
-                <a href="/#projects" className="dropdown-item">
+                <a href="index.html#projects" className="dropdown-item">
                   Наши работы
                 </a>
-                <a href="/#team" className="dropdown-item">
+                <a href="index.html#team" className="dropdown-item">
                   Команда
                 </a>
-                <a href="/#testimonial" className="dropdown-item">
+                <a href="index.html#testimonial" className="dropdown-item">
                   Отзывы
                 </a>
               </div>
             </div>
-            <a href="/contact" className="nav-item nav-link">
+            <a href="contact.html" className="nav-item nav-link">
               Контакты
             </a>
           </div>
@@ -175,19 +175,19 @@ export default function Layout({ children }) {
             <div className="row g-5">
               <div className="col-sm-6">
                 <h4 className="text-light mb-4">Навигация</h4>
-                <a className="btn btn-link" href="/#about">
+                <a className="btn btn-link" href="index.html#about">
                   О нас
                 </a>
-                <a className="btn btn-link" href="/#facts">
+                <a className="btn btn-link" href="index.html#facts">
                   Преимущества
                 </a>
-                <a className="btn btn-link" href="/#service">
+                <a className="btn btn-link" href="index.html#service">
                   Услуги
                 </a>
-                <a className="btn btn-link" href="/#projects">
+                <a className="btn btn-link" href="index.html#projects">
                   Наши работы
                 </a>
-                <a className="btn btn-link" href="/#testimonial">
+                <a className="btn btn-link" href="index.html#testimonial">
                   Отзывы
                 </a>
               </div>
@@ -236,7 +236,7 @@ export default function Layout({ children }) {
           <div className="py-4 px-5 text-center text-md-start">
             <p className="mb-0 text-primary">
               <span>&copy;</span> <span id="current-year"></span>{' '}
-              <a href="#">Фотостудия Focus. </a>
+              <a href="index.html">Фотостудия Focus. </a>
               <span className="text-white">Все права защищены.</span>
             </p>
           </div>

@@ -23,7 +23,7 @@ export default function Home() {
                 помощью новейших технологий.
               </p>
               <div className="d-flex align-items-center pt-4 animated slideInDown">
-                <a href="" className="btn btn-primary py-3 px-4 me-5">
+                <a href="#" className="btn btn-primary py-3 px-4 me-5">
                   Подробнее
                 </a>
                 <button
@@ -180,7 +180,7 @@ export default function Home() {
                     Профессиональная техника
                   </div>
                 </div>
-                <a className="btn btn-primary py-3 px-5" href="">
+                <a className="btn btn-primary py-3 px-5" href="#">
                   Подробнее
                 </a>
               </div>
@@ -294,7 +294,7 @@ export default function Home() {
                   <div className="service-overlay">
                     <a
                       className="btn btn-lg-square btn-outline-light rounded-circle"
-                      href=""
+                      href="#"
                     >
                       <i className="fa fa-link text-primary"></i>
                     </a>
@@ -319,7 +319,7 @@ export default function Home() {
                   <div className="service-overlay">
                     <a
                       className="btn btn-lg-square btn-outline-light rounded-circle"
-                      href=""
+                      href="#"
                     >
                       <i className="fa fa-link text-primary"></i>
                     </a>
@@ -344,7 +344,7 @@ export default function Home() {
                   <div className="service-overlay">
                     <a
                       className="btn btn-lg-square btn-outline-light rounded-circle"
-                      href=""
+                      href="#"
                     >
                       <i className="fa fa-link text-primary"></i>
                     </a>
@@ -369,7 +369,7 @@ export default function Home() {
                   <div className="service-overlay">
                     <a
                       className="btn btn-lg-square btn-outline-light rounded-circle"
-                      href=""
+                      href="#"
                     >
                       <i className="fa fa-link text-primary"></i>
                     </a>
@@ -598,19 +598,19 @@ export default function Home() {
                   <div className="d-flex">
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-facebook-f"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-twitter"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-instagram"></i>
                     </a>
@@ -643,19 +643,19 @@ export default function Home() {
                   <div className="d-flex">
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-facebook-f"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-twitter"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-instagram"></i>
                     </a>
@@ -688,19 +688,19 @@ export default function Home() {
                   <div className="d-flex">
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-facebook-f"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-twitter"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-instagram"></i>
                     </a>
@@ -733,19 +733,19 @@ export default function Home() {
                   <div className="d-flex">
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-facebook-f"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-twitter"></i>
                     </a>
                     <a
                       className="btn btn-square btn-outline-primary rounded-circle me-2"
-                      href=""
+                      href="#"
                     >
                       <i className="fab fa-instagram"></i>
                     </a>

@@ -57,7 +57,7 @@ export default function Custom404() {
                 сервере. Перейдите на главную страницу или
                 воспользуйтесь формой поиска.
               </p>
-              <a className="btn btn-primary py-3 px-5" href="/">
+              <a className="btn btn-primary py-3 px-5" href="index.html">
                 Вернуться на главную страницу
               </a>
             </div>
