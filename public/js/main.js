@@ -18,7 +18,6 @@
   $('.btn-play').click(function () {
     $videoSrc = $(this).data('src');
   });
-  console.log($videoSrc);
   $('#videoModal').on('shown.bs.modal', function (e) {
     $('#video').attr(
       'src',
@@ -80,7 +79,6 @@
 // Set year in copyright
 function setCurrentYear(id) {
   const elem = document.getElementById(id);
-  console.log(elem);
   if (elem) {
     elem.textContent = new Date().getFullYear();
   }
