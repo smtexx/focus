@@ -6,7 +6,7 @@ import PageTitle from '../components/PageTitle/PageTitle';
 export default function Custom404() {
   return (
     <>
-      <PageTitle title="404 - не найдено | Фотостудия Focus" />;
+      <PageTitle title="404 - не найдено | Фотостудия Focus" />
       {/* Header */}
       <div className="container-fluid hero-header bg-light py-5 mb-5">
         <div className="container py-5">
@@ -57,7 +57,10 @@ export default function Custom404() {
                 сервере. Перейдите на главную страницу или
                 воспользуйтесь формой поиска.
               </p>
-              <a className="btn btn-primary py-3 px-5" href="index.html">
+              <a
+                className="btn btn-primary py-3 px-5"
+                href="index.html"
+              >
                 Вернуться на главную страницу
               </a>
             </div>

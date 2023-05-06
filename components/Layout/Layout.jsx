@@ -1,23 +1,18 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
-import { useEffect } from 'react';
 import MetaTags from '../MetaTags/MetaTags';
 import Logo from '../Logo/Logo';
 import s from './Layout.module.css';
+import { useBSNavBar, useSpinner } from '../../helpers/hooks';
 
 /* eslint-disable @next/next/no-img-element */
 export default function Layout({ children }) {
-  useEffect(() => {
-    function hideLoader() {
-      const spinner = document.getElementById('spinner');
-      if(spinner) {
-        spinner.classList.remove('show')
-      }
-    }
-
-    setTimeout(() => {      
-      hideLoader();
-    }, 3000);
-  }, [children]);
+  useSpinner('spinner', [children]);
+  useBSNavBar(
+    'navbarCollapse',
+    'navbarCloseButton',
+    'a:not([href="#"])',
+    991
+  );
 
   return (
     <>
@@ -52,6 +47,7 @@ export default function Layout({ children }) {
           className="navbar-toggler"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
+          id="navbarCloseButton"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -80,25 +76,34 @@ export default function Layout({ children }) {
             </h1>
           </a>
           <div className="navbar-nav me-auto py-0">
-            <a href="index.html#service" className="nav-item nav-link">
+            <a
+              href="index.html#service"
+              className="nav-item nav-link"
+            >
               Услуги
             </a>
             <div className="nav-item dropdown">
               <a
-                href="index.html#service"
+                href="#"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
               >
                 Информация
               </a>
               <div className="dropdown-menu rounded-0 shadow-sm border-0 m-0">
-                <a href="index.html#projects" className="dropdown-item">
+                <a
+                  href="index.html#projects"
+                  className="dropdown-item"
+                >
                   Наши работы
                 </a>
                 <a href="index.html#team" className="dropdown-item">
                   Команда
                 </a>
-                <a href="index.html#testimonial" className="dropdown-item">
+                <a
+                  href="index.html#testimonial"
+                  className="dropdown-item"
+                >
                   Отзывы
                 </a>
               </div>
@@ -191,10 +196,16 @@ export default function Layout({ children }) {
                 <a className="btn btn-link" href="index.html#service">
                   Услуги
                 </a>
-                <a className="btn btn-link" href="index.html#projects">
+                <a
+                  className="btn btn-link"
+                  href="index.html#projects"
+                >
                   Наши работы
                 </a>
-                <a className="btn btn-link" href="index.html#testimonial">
+                <a
+                  className="btn btn-link"
+                  href="index.html#testimonial"
+                >
                   Отзывы
                 </a>
               </div>
@@ -249,7 +260,7 @@ export default function Layout({ children }) {
           </div>
           <div className="py-4 px-5 bg-secondary footer-shape position-relative text-center text-md-end">
             <p className={`mb-0 ${s.created}`}>
-              Created by{' '}
+              Made by{' '}
               <a className="fw-bold" href="mailto:smtexx@yandex.ru">
                 SMTEXX
               </a>
