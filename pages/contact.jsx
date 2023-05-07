@@ -5,7 +5,8 @@ import PageTitle from '../components/PageTitle/PageTitle';
 export default function Contact() {
   return (
     <>
-      <PageTitle title="Контакты | Фотостудия Focus" />;{/* Header */}
+      <PageTitle title="Контакты | Фотостудия Focus" />
+      {/* Header */}
       <div className="container-fluid hero-header bg-light py-5 mb-5">
         <div className="container py-5">
           <div className="row g-5 align-items-center">
